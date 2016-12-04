@@ -13,3 +13,39 @@
 #menu-title:hover, #specials-title:hover, #map-title:hover{
   box-shadow: 0 1px 5px 1px #CCCCCC;
 }
+#menu-title{
+  background-image: url("../images/menu_final.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#specials-title{
+  background-image: url("../images/special_final2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#menu-title span, #specials-title span, #map-title span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+  font-family: 'Tangerine', cursive;
+}
+
+@media (max-width:767px) {
+  #menu-title, #specials-title{
+    width: 480px;
+    margin: 0 auto 15px;
+  }
+}
+@media (max-width:479px) {
+    #menu-title,#specials-title{
+      width: 325px;
+      margin: 0 auto 15px;
+    }
+}
