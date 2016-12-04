@@ -39,13 +39,13 @@
 
 @media (max-width:767px) {
   #menu-title, #specials-title{
-    width: 480px;
+    width: 380px;
     margin: 0 auto 15px;
   }
 }
 @media (max-width:479px) {
-    #menu-title,#specials-title{
-      width: 325px;
+    #menu-title,#specials-title,#map-title{
+      width: 320px;
       margin: 0 auto 15px;
     }
 }
