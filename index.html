@@ -6,16 +6,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>My Resturant</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/style_navbar.css">
+<link rel="stylesheet" href="css/style_jumbotron.css">
+<link rel="stylesheet" href="css/style_contents.css">
 <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
+          <a href="index.html" class="pull-left   visible-md visible-lg">
             <div id="logo-img" alt="logo-image"></div>
           </a>
 
@@ -50,15 +52,43 @@
           </li>
           <li id="phone" class="hidden-xs">
             <a href="tel:410-602-5008">
-              <span>410-602-5008</span></a><div>* We Deliver</div>
+              <span id="phone-span">410-602-5008</span></a><div>* We Deliver</div>
           </li>
         </ul><!--closing of nav-list-->
       </div><!---closing of collapsable-nav-->
-
-
-    </div> <!---closing of container-fluid-->
-    </nav>
+    </div> <!---closing of container1-->
+  </nav>
   </header>
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+      <span class="glyphicon glyphicon-earphone"></span>
+      410-602-5008
+    </a>
+  </div> <!--closing of call-btn-->
+    <div id="xs-deliver" class="text-center visible-xs">
+    *We Deliver
+  </div>
+  <div id="main-content" class="container"> <!--opening of container2 -->
+    <div class="jumbotron">
+    </div>
+  <div id="home-titles" class="row">
+    <div class="col-md-4 col-md-6 col-xs-12">
+      <a href="menu-categories.html">
+        <div id="menu-title"><span>Menus</span></div>
+      </a>
+    </div>
+    <div class="col-md-4 col-md-6 col-xs-12">
+      <a href="single-category.html">
+        <div id="specials-title"><span>Specials</span></div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <a href="" target="_blank">
+        <div id="map-title"><span>Map</span></div>
+      </a>
+    </div>
+  </div>
+</div><!--closing of container2-->
 
   <!--jQery and bootstrap plugins----->
   <script src="js/jquery-3.1.1.min.js"></script>
