@@ -1,0 +1,44 @@
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 2px;
+	padding-bottom: 10px;
+	background-color: #222;
+	border-top:0;
+	opacity: 0.85;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#hours,#address{
+	line-height: 2;
+}
+#hours > span, #address > span {
+	font-size:1.3em;
+}
+#address p{
+	color: #557c3e;
+	font-size:0.8 em;
+	line-height:1.8;
+}
+#Testimonials{
+	font-style:italic;
+}
+#Testimonials p{
+	margin-top:30px;
+}
+hr{
+	border-top: 1px dashed #8c8b8b;
+
+}
+hr:after {
+  content: '\002702';
+  display: inline-block;
+  position: relative;
+  top: -12px;
+  left: 40px;
+  padding: 0 2px;
+  background: #f0f0f0;
+  color: #8c8b8b;
+  font-size: 18px;
+}
