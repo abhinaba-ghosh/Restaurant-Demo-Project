@@ -1,0 +1,35 @@
+.category-title{
+  background-image: url("../images/menu/lunch1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 250px;
+  width: 280px;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin: 0 auto 15px;
+}
+.category-title span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #fff;
+  opacity: .80;
+  font-family: 'Aref Ruqaa', serif;
+}
+.category-title:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div{
+  margin-bottom: 50px;
+}
+
+@media (min-width:768px) and (max-width:991px){
+  .category-title{
+    width:350px;
+  }
+}
