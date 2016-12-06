@@ -27,9 +27,18 @@
 #menu-categories-title + div{
   margin-bottom: 50px;
 }
-
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:767px) and (max-width:991px){
   .category-title{
-    width:350px;
+    width:100%;
+  }
+}
+@media (min-width:480px) and (max-width:766px){
+  .category-title{
+    width:92%;
+  }
+}
+@media (max-width:479px){
+  .category-title{
+    width:100%;
   }
 }
